@@ -16,7 +16,7 @@ jobs:
         env: 
           JUEJIN_COOKIE: ${{secrets.JUEJIN_COOKIE}}
         with:
-          who-to-greet: '若川'
+          who-to-greet: 'zyycode'
       # Use the output from the `hello` step
       - name: Get the output
         run: | 
